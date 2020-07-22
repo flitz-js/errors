@@ -58,7 +58,7 @@ run();
 
 A possible result could be (the `Show all frames` was checked when took screenshot btw.):
 
-![screenshot #1](./assets/screenshot.jpg)
+<kbd><img src="https://raw.githubusercontent.com/flitz-js/errors/master/assets/screenshot.jpg" /></kbd>
 
 ## TypeScript
 
