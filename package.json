@@ -1,0 +1,66 @@
+{
+  "name": "@flitz/errors",
+  "version": "0.1.0",
+  "description": "Pretty error handling for flitz.",
+  "private": false,
+  "main": "lib/index.js",
+  "files": [
+    "lib/**/*",
+    "!lib/sandbox/**/*",
+    "!**/*.map"
+  ],
+  "scripts": {
+    "build": "del ./lib && tsc -p ./tsconfig.json",
+    "lint": "eslint -c .eslintrc.js --ext .ts src",
+    "lint:fix": "eslint --fix -c .eslintrc.js --ext .ts src",
+    "sandbox": "ts-node-dev --respawn ./src/sandbox/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flitz-js/errors.git"
+  },
+  "keywords": [
+    "flitz",
+    "error",
+    "errors",
+    "error-reporting",
+    "handling",
+    "html",
+    "pretty",
+    "beautify",
+    "youch",
+    "whoops",
+    "typescript"
+  ],
+  "author": "Marcel Joachim Kloubert <marcel.kloubert@gmx.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flitz-js/errors/issues"
+  },
+  "homepage": "https://github.com/flitz-js/errors#readme",
+  "devDependencies": {
+    "@flitz/tsconfig": "0.1.1",
+    "@types/node": "^10.17.27",
+    "@typescript-eslint/eslint-plugin": "^3.7.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^3.7.0",
+    "@typescript-eslint/parser": "^3.7.0",
+    "del-cli": "^3.0.1",
+    "eslint": "^7.5.0",
+    "eslint-config-flitz": "0.1.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsdoc": "^30.0.3",
+    "eslint-plugin-no-null": "^1.0.2",
+    "eslint-plugin-unicorn": "^21.0.0",
+    "flitz": "0.11.5",
+    "ts-node-dev": "^1.0.0-pre.52",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.7"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "youch": "^2.0.10"
+  }
+}
