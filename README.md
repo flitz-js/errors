@@ -56,7 +56,7 @@ const run = async () => {
 run();
 ```
 
-A possible result could be (the `Show all frames` has to checked btw.):
+A possible result could be (the `Show all frames` was checked when took screenshot btw.):
 
 ![screenshot #1](./assets/screenshot.jpg)
 
