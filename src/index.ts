@@ -24,6 +24,6 @@ exports = module.exports = function () {
   return errors.apply(null, arguments as any);
 };
 
-export * as handlers from './handlers';
+export * from './handlers';
 
 export default errors;
